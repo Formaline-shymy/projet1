@@ -1,0 +1,1086 @@
+/* polices personnalisées */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto_regular/Roboto-Regular-webfont.eot');
+    src: url('fonts/roboto_regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('fonts/roboto_thin/Roboto-Thin-webfont.eot');
+    src: url('fonts/roboto_thin/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_thin/Roboto-Thin-webfont.woff2') format('woff2'),
+         url('fonts/roboto_thin/Roboto-Thin-webfont.woff') format('woff'),
+         url('fonts/roboto_thin/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('fonts/roboto_thin/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff2') format('woff2'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('RobotoCondensed-Regular-webfont.eot');
+    src: url('RobotoCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoCondensed-Regular-webfont.woff2') format('woff2'),
+         url('RobotoCondensed-Regular-webfont.woff') format('woff'),
+         url('RobotoCondensed-Regular-webfont.ttf') format('truetype'),
+         url('RobotoCondensed-Regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  body {
+    background-color:#FFFFFF;
+	margin: 0;
+	overflow-x: hidden;
+	
+}
+
+ /**************************** Menu ***********************************/
+ 
+header{
+   	display:flex;
+	z-index:20;
+	top:0; 
+    left:0;
+    right:0;
+    height:auto;
+    position:fixed;
+	margin-right:auto;
+	margin-left:10px;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
+	}
+
+  header img {
+	 margin-left:220px;
+	 margin-top: 25px; 
+	 margin-bottom: 10px;
+	 
+		 }
+   
+header nav {
+	display:inline-block;
+    margin-left:570px;
+    margin-top: 35px;
+	margin-bottom:40px;
+	word-spacing: 1em;
+	
+	
+  	 }
+     
+header nav a {
+	color: #000000;
+	font-family: 'robotothin';
+	font-weight:800;
+	padding-top:2px;
+	font-size: 1em;
+	text-decoration: none;
+
+}
+
+header nav a:hover{   
+    padding-top: 32px;
+    font-family:'robotothin';
+    font-weight: bold;
+    border-top: 3px solid #5897D0;  /* BLUE*/
+ }
+
+
+    /******************************************************* page 1 ACCEUIL ***************************************************/
+#accueil{
+	margin-top:2em;
+	margin-right: 0;
+	margin-left:10px;
+	height:auto;
+	max-width:100vw;
+	
+	}
+
+@keyframes slider{
+	0% {
+    left: 0%;
+
+}
+50% {
+    left: 100%;
+}
+70% {
+    left: 100%;
+}
+100% {
+    left: 0%;
+}
+}
+
+.blue-line {
+	margin-left:0px;
+	width:180px;
+	border-bottom: 5px solid #588dd0; 
+ height:40px;  
+}
+
+
+ #slider{
+	position:relative;
+    width:100%;
+	top: 50px;
+    margin-bottom:10px;
+	z-index:1;
+	overflow:hidden; 
+
+		}
+		
+#slider1{
+	float: right;
+	animation: 10s slider ease-in-out infinite 1s;	
+	width:100%;
+	height:auto;
+	margin-left:0px;
+	margin-right:0;
+	position:relative;
+	
+}
+#slider2{
+	margin-left: -100%;
+	float: left;
+	animation: 10s slider ease-in-out infinite 1s;
+	width:100%;
+	height:auto;
+	position:relative;
+	
+}
+
+.slider-text{
+	position: absolute;
+    left: 10%;
+	top: 25%;
+	padding-bottom: 15px;
+	color: #ffffff;
+	text-align: left; 
+	width:650px;
+}
+
+.slider-text span {
+    color: #5897D0;	
+}
+
+.slider-text h1{
+	font-family: 'robotobold', sans-serif;
+	font-size: 2.2em;
+	line-height: 1em;
+	letter-spacing: -2px;
+	margin-bottom:15px;
+	text-transform: uppercase;
+}
+
+.slider-text p{
+	font-family:'robotothin', sans-serif;
+	font-size: 1em;
+	line-height: 0.5em;
+	margin: 5px 0 40px 0;
+	padding-left:12px;
+	}
+
+
+ .slider-text a{
+	color: #ffffff;
+	background-color:#5897D0;
+	font-family: 'roboto', sans-serif;
+	font-size: 0.9em;
+	text-decoration: none;
+	text-align:center;
+	border-radius: 4px;
+    border:none;
+    padding: 10px;
+	margin-left:12px;
+}
+
+.arrows{
+	font-size:0.8em}
+	
+
+.a-left{
+	position: absolute;
+    left: -1.5%;
+	top: 40%;
+}
+
+.a-right{
+	position: absolute;
+    right: -1.5%;
+	top: 40%;
+}
+
+
+/******************************************************* page 2 SERVICES *********************************************************/
+#services{
+	padding-left: 6em;
+	padding-right:6em;
+	padding-bottom:3em;
+	padding-top: 5em;
+	height:auto;
+	max-width:100vw;
+	margin-right: 0;
+	margin-left:10px;
+	margin-top:1em;
+	
+		}
+		
+.services-text{  
+   padding: 20px 0 20px 0;
+   
+}
+
+ .services-text h1{
+	font-size: 1.8em;
+	font-family:'robotobold', sans-serif;
+	text-align: center;
+	
+}
+
+.services-text article {
+	font-family:'robotothin', sans-serif;
+	font-size: 0.9em;
+	font-weight:800;
+	line-height: 1.6em;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+			}
+
+/**********services line&circles separator ********/
+
+#services p { /**********2circles icon***/
+	 font-size: 6px;
+	 text-align:center;
+     position: relative;
+     z-index:2;
+	 
+ } 
+
+hr.line {
+  margin-top:-22px;
+  height: 1.5px;
+  border: 0;
+  background-color: #E8E8E8;
+  width:9%;
+  position: relative;
+  z-index:1;
+ 
+}
+	
+
+
+/*************************main section page*****/
+#page {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2px;
+	margin-left: 50px;
+	height: auto;
+	width:auto;
+	
+}
+
+
+.services-image {
+    width: 40%;
+	height: auto;
+    min-width:250px;
+	padding-top:0px;
+	margin:auto;
+				
+}
+
+ .services-image img{
+	 margin-top:-150px;
+	 width: 100%;
+     max-width: 510px;
+	 height: auto;
+     
+ }
+
+.services-liste {
+	width:40%;
+	height: auto;
+    min-width:250px;
+	margin:auto;  	
+	}
+	
+.services-liste ul{
+	list-style: none;
+	padding-top: 80px;
+	padding-left: 72px;
+	
+}
+
+.designSEO h3{
+   text-align:left;
+   font-family: 'robotobold';
+   font-size: 0.9em;
+   padding-left: 10px;
+   
+}
+
+ .designSEO h4 {
+	font-size: 0.9em;
+ 	font-family: 'robotothin' ;
+	font-family:'robotothin', sans-serif;
+	font-weight:800;
+	margin-top:-12px;
+	margin-right: 0px;
+	padding-left: 10px;
+	line-height:1.5em;
+   	text-align: justify;
+  	 }
+
+.listeicon{
+width:80px;
+margin-left: -77px;
+margin-bottom:-65px;
+padding:0;
+
+}
+
+.listeicon .dot {
+  height: 58px;
+  width: 58px;
+  background-color: transparent;
+  border-radius: 50%;
+  border:2px solid lightgrey;
+  display: inline-block;
+  margin-right:-47px;
+  margin-bottom: -20px;
+}
+
+
+.listeicon .icons{
+	padding-bottom:50px;
+	}
+
+
+
+/******************************************************************* page 3 PORTFOLIO **************************************************/
+#portfolio{
+	background-color: #F0F0F0;
+	padding-left: 6em;
+	padding-right:6em;
+	padding-bottom:3em;
+	padding-top: 5em;
+	height:auto;
+	max-width:100vw;
+	margin-right: 0;
+	margin-left:10px;
+	}
+	
+	
+.portfolio-text{  
+   padding: 20px 0 20px 0;
+}
+
+ .portfolio-text h1{
+	font-size: 1.8em;
+	font-family:'robotobold', sans-serif;
+	text-align: center;
+	
+	}
+
+.portfolio-text article {
+	font-family:'robotothin', sans-serif;
+	font-size: 0.9em;
+	font-weight:600;
+	line-height: 1.6em;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	} 
+	
+	/**********portfolio line&circles separator ********/
+
+#portfolio p { /**********2circles icon***/
+	 font-size: 6px;
+	 text-align:center;
+     position: relative;
+     z-index:2;
+	 
+ } 
+
+hr.line {
+  margin-top:-22px;
+  height: 1.5px;
+  border: 0;
+  background-color: #DCDCDC;
+  width:10%;
+  position: relative;
+  z-index:1;
+ 
+}
+	
+	
+	/**********portfolio buttons********/
+
+.button-block{
+  display: flex;
+  justify-content: center; 
+  border:3px solid #E8E8E8;
+  width:350px;
+  height:36px;
+  border-radius:5px;
+  cursor: pointer;
+  margin:1em auto 2em auto;
+}
+.button-block:hover{
+	border:none;
+}
+
+.button-one ,.button-two ,.button-three, .button-four {
+	background-color:#E8E8E8;
+	color: 	#000000;
+	width: 81px;
+	height: 20px;
+	border: none;
+    text-decoration: none;
+	justify-content: center; 
+    padding: 8px 8px 8px 20px; 
+	display: flex;
+    font-size: 1em;
+    font-family:'robotoregular', sans-serif;
+}
+.button-one {
+	letter-spacing:0.3px;
+	}
+	
+.button-four {
+	padding-right:1em;
+	}
+	
+.button-one:hover{
+	border-radius:5px 0 0 5px;
+}
+
+.button-four:hover{
+	border-radius: 0 5px 5px 0;
+	
+}
+
+.button-one:hover,.button-two:hover, .button-three:hover, .button-four:hover{
+	background-color:#5897D0;
+	color: #FFFFFF;
+	border-bottom:3px solid #0066CC;
+	width: 90px;
+	height: 20px;
+    justify-content: center;
+	z-index:2;
+	}
+ 
+a:hover .triangle  {
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0066CC transparent transparent transparent;
+  position: relative;
+  top: 31px;
+  right: 30px;
+}
+
+.button-one:hover .triangle  {
+   right: 22px;
+}
+.button-two:hover .triangle , .button-three:hover .triangle{
+   right: 40px;
+}
+	
+	
+	
+	/***portolio images***/
+#projets{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
+  
+  }
+/***?????{align-items: stretch justify-items: stretch;}***/
+  
+#projets img {
+  border: none;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  cursor: pointer;
+}
+.container {
+position: relative;
+padding: 0;
+margin: 0;
+}
+
+.container img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+figcaption {
+opacity:0;
+position: absolute;
+width: 100%;
+height: 30%;
+left: 0;
+bottom: 0;
+padding: 0.5em;
+z-index: 2;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.4);/***use RGBA color values to not apply opacity to child element***/
+
+}
+
+figcaption:hover{
+opacity:1;
+color: #FFFFFF;
+}
+
+figcaption .title  {
+  margin-top:0.2em;
+  font-family:'robotoregular', sans-serif;
+  font-size:0.9em;
+  font-weight:600;
+ }
+
+ figcaption .description  {
+  font-family:'robotothin', sans-serif;
+  font-size:0.8em;
+  font-weight:600;
+ }
+ 
+ .eye{
+    left: 240px;
+    top:-13em;
+    width: 31px;
+    height: 31px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;   
+ }
+  
+.eye .fa-stack.fa-2x {
+	top:-0.1em;
+	left: -6px;
+	font-size:17px;
+	}
+ 
+
+ 
+/****************************************************** page 4 CONTACT ******************************************************/
+#contact{
+	height:auto;
+	width:auto;
+	padding-top:5em;
+	margin-top:30px;
+	margin-right: 0;
+	margin-left:10px;
+	position:relative;
+	
+  }
+
+ .iframe-map{
+  width:100%;
+  height:95vh;
+  border:none;
+  opacity: 0.6;
+  
+} 
+  
+  
+#blue-overlay{
+  width:100%;
+  height:95vh;
+  background-color: #008CBA;
+  
+  
+  
+ }
+
+	
+form {
+	width:269px;
+	border: 2px solid #F5F5F5;
+    background-color:#F5F5F5;
+    box-shadow:0 8px 10px #FFFFFF, 0 4px 4px;
+	opacity:0.9;
+	padding: 5px 10px 5px 10px;
+	position:absolute;
+	right: 10%;
+    bottom: 10%;
+  			
+}
+    
+	
+.sent {
+	  padding:10px 10px;
+      margin: 10px;
+	  width:220px;
+      height: 10px;
+	  background:#FFFFFF;
+	  border-bottom: 1px  #FFFFFF;
+	  border-top: 1px  #FFFFFF;
+	  border-left:1px  #FFFFFF;
+      border-right:1px #FFFFFF;
+      font-family: 'roboto', sans-serif;
+	  font-size: 0.7em;
+}
+
+.message {
+      padding:10px 10px;
+      margin: 10px;
+	  width:220px;
+      height: 130px;
+	  background:#FFFFFF;
+	  border-bottom: 1px  #FFFFFF;
+	  border-top: 1px  #FFFFFF;
+	  border-left:1px  #FFFFFF;
+      border-right:1px #FFFFFF;
+      font-family: 'roboto', sans-serif;
+	  font-size: 0.7em;
+ 	  
+}
+
+h1 {
+      margin: 10px; 
+      font-family: 'roboto', sans-serif;
+	  font-size: 1.2em;
+	  
+ 
+}
+
+p {
+     margin: 10px; 
+     font-family: 'robotothin', sans-serif;
+	 font-size: 0.8em; 
+	 font-weight:bold;
+	 
+   
+}
+
+p span{
+     font-weight: bold;
+     font-family: 'roboto', sans-serif;
+     font-size: 1.2em;
+     
+}
+
+button {
+    margin: 10px; 
+    color: #ffffff;
+	background-color:#5897D0;
+	font-family: 'roboto', sans-serif;
+	font-size: 0.8em;
+	text-decoration: none;
+	text-align:left;
+	border-radius: 2px;
+    border:none;
+    padding: 10px;
+    width: 130px;
+    box-shadow: 2px 2px 2px #436979;
+    cursor: pointer;
+} 
+
+
+ /***FIN ***page 4 contact ***/
+
+
+/***********************************************MEDIA QUERRIES*****************************************************************/
+/***----------smartphones--------**/ 
+@media (max-width: 420px) {
+ 
+ /****0-MENU--***/
+header{
+	display:block;
+	text-align:center;
+	height:97px;
+	margin-bottom:5px;
+       }
+	
+ header img {
+	 margin-left:0px;
+	 margin-top:5px;
+	 margin-bottom:0px;
+	 width:208.8px;
+	 height:45,6px;
+		 }
+	 
+header nav {
+	margin-left:0px;
+	margin-top: 15px;
+    font-size:1em;
+	
+		  	 }
+	 
+ header nav a:hover{
+	border-top:none;
+	}
+	
+	/****1-ACCEUIL***/
+#accueil{
+	min-height:80vh;
+	padding-top:80px;
+}
+.blue-line {
+ display: none;
+}
+
+
+#slider1{
+	float: none;
+	animation: stop;
+	margin-top:30px;
+	margin-bottom:50px;	
+}
+
+#slider2{
+	display: none;
+	 		}
+
+.slider-text{
+	margin-top: 0%;
+	margin-left:0%;
+	position:static;
+	color:#585858;
+	width:85%;
+}
+
+.slider-text br{
+display:none;
+}
+
+.slider-text h1{
+	margin-bottom:1em;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	letter-spacing: 0;
+	}
+.slider-text p{
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+	margin: 30px 0 40px 0;
+		}
+
+.arrows{
+	font-size:0.3em}
+	
+
+.a-left{
+	top: 18%;
+}
+
+.a-right{
+	
+    top: 18%;
+}
+
+
+
+	
+	
+	
+ /****2-SERVICES***/
+ 
+ #services{
+	 padding-top:4.5em;
+	 padding-left:1.7em;
+	  }
+	  
+ .services-text{
+	 padding-bottom:0;
+	 padding-left:0;
+	 width:80vw;
+	  }
+	  
+.services-text article {
+	font-size: 1em;
+	line-height: 2em;
+	text-align: justify;
+	padding-top: 25px;
+	padding-bottom:0;
+	width:100%;
+		}
+
+.services-text article br{
+	display:none;
+} 
+	
+#page {
+	flex-flow: column wrap;
+	margin-left:0px;
+	}
+	
+ .services-liste  {
+   width:100%;  
+ }
+ 
+ .services-liste ul{
+	font-size:1em;
+	padding-top:10px;
+}
+
+.services-image{
+	width:100%;
+	}
+
+
+.services-image img {
+    margin-top:15px;
+	margin-bottom:15px;
+			   	}	
+
+	
+	
+	
+	
+ /****3-PORTFOLIO***/
+ #portfolio{
+		padding-top:4.5em;
+		}
+	
+ hr.line{
+  height: 1px;
+  width:60%;
+ }
+ 
+#portfolio br{
+	display:none;
+}
+
+.portfolio-text article {
+ text-align:justify;
+ width:130%;
+ margin-top:1.5em
+}
+ 
+ .button-block{
+  width:100px;
+  height:20px;
+  margin:1em 1em 2em 1em;
+  }
+   
+ .button-one ,.button-two ,.button-three, .button-four {
+	width: 75px;
+	height: 18px;
+	padding: 8px 8px 8px 8px; 
+	font-size: 0.9em;
+  }
+ 
+ #projets{
+	margin-left:-80px;
+	grid-gap: 45px;
+ }
+	
+.eye{
+    
+    left: 220px;
+}
+
+	
+	
+	
+	
+	 /****4-CONTACT***/
+
+
+
+form
+	{  
+		width: 78%;
+        bottom: 12%;
+        right: 10%;
+		padding:3px;
+		
+	}
+}
+
+
+
+
+
+/**------------------------tablets---------------------------**/
+@media (min-width: 420px) and (max-width: 800px) { 
+/****0-MENU--***/
+
+header{
+	display:block;
+	text-align:center;
+    height:118px;
+
+}
+
+header nav a:hover{
+	border-top:none;
+	}
+	
+ header img {
+	width:208.8px;
+	height:45,6px;
+	margin-left:0;
+	margin-top:9px;
+	 }
+	 
+header nav {
+	margin-left:0px;
+	margin-top: 9px;
+		 }
+
+/****1-ACCEUIL***/
+#accueil{
+	min-height:85vh;
+	padding-top:100px;
+}
+.blue-line {
+ display: none;
+}
+
+
+#slider1{
+	float: none;
+	animation: stop;
+	margin-top:30px;
+	margin-bottom:50px;	
+}
+
+#slider2{
+	display: none;
+	 		}
+
+.slider-text{
+	margin-top: 0%;
+	margin-left:15%;
+	position:static;
+	color:#585858;
+	
+}
+
+.slider-text h1{
+	margin-bottom:1em;
+	font-size: 1.6em;
+	line-height: 1.2em;
+	letter-spacing: 0;
+	}
+
+.arrows{
+	font-size:0.5em}
+	
+
+.a-left{
+	top: 25%;
+}
+
+.a-right{
+	
+    top: 25%;
+}
+
+
+
+
+	 
+
+ /****2-SERVICES***/
+ 
+ #services{
+	 padding-top:5.5em;
+ }
+
+.services-text article {
+	font-size: 1em;
+	font-weight:800;
+	line-height: 1.4em;
+	text-align: justify;
+	padding-bottom: 15px;
+	padding-top: 10px;
+		}
+
+.services-text article br{
+	display:none;
+}
+
+#page {
+	flex-flow: column wrap;
+	margin-left:0px;
+	}
+	
+ .services-liste  {
+   width:90%
+ }
+ 
+ .services-liste ul{
+	font-size:1em;
+	padding-top:10px;	
+}
+
+.services-image{
+	width:90%;
+}
+
+
+.services-image img {
+    margin-top:0;
+	   	}
+	
+
+
+/****3-PORTFOLIO***/
+.portfolio-text{  
+   padding-top: 2.5em; 
+}
+ 
+ hr.line{
+  height: 1px;
+  width:40%;
+ }
+
+#portfolio br{
+	display:none;
+}
+
+.eye{
+    
+    left:80%;
+}
+
+
+
+
+/*****4- CONTACT****/
+
+form{
+	right: 30%;
+    bottom: 20%;
+		
+}
+
+}
+
