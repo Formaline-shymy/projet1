@@ -715,7 +715,7 @@ button {
 
 /***********************************************MEDIA QUERRIES*****************************************************************/
 /***----------smartphones--------**/ 
-@media (max-width: 420px) {
+@media all and (max-device-width: 480px) {
  
  /****0-MENU--***/
 header{
@@ -928,7 +928,7 @@ form
 
 
 /**------------------------tablets---------------------------**/
-@media (min-width: 420px) and (max-width: 800px) { 
+@media all and (min-device-width: 480px) and (max-device-width: 800px){
 /****0-MENU--***/
 
 header{
