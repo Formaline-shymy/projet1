@@ -721,7 +721,6 @@ button {
 header{
 	display:block;
 	text-align:center;
-	height:97px;
 	margin-bottom:5px;
        }
 	
@@ -736,10 +735,12 @@ header{
 header nav {
 	margin-left:0px;
 	margin-top: 15px;
-    font-size:1em;
-	
-		  	 }
+	}
 	 
+header nav a{
+	font-size:1.6em;
+}
+	
  header nav a:hover{
 	border-top:none;
 	}
