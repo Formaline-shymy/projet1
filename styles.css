@@ -1,17 +1,17 @@
 /* polices personnalisées */
 @font-face {
     font-family: 'robotoregular';
-    src: url('fonts/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype');
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'robotothin';
-    src: url('fonts/roboto_thin/Roboto-Thin-webfont.ttf') format('truetype');
+    src: url('fonts/Roboto-Thin.ttf') format('truetype');
      }
 
 @font-face {
     font-family: 'robotobold';
-    src: url('fonts/Roboto-Bold-webfont.ttf') format('truetype');
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
 
 }
 
