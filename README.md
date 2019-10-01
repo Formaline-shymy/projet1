@@ -1,11 +1,11 @@
 <h3>I Project ("Intégrez la maquette du site d'une agence web") du parcourt "Développeur Web Junior" d'OpenClassrooms.</h3>
-<p>Site pour la société WebAgency rélisé en html/css.<p>
+<p>Site pour la société WebAgency rélisé en html/css.</p>
 
 <h3>Auteur:</h3>
-Aneta LAURENT
+<p>Aneta LAURENT</p>
 
 <h3>Fichiers</h3>
-<ul>README.md
+<ul>
   <li>index.html</li>
   <li>styles.css</li>
   <li>Images</li>
@@ -16,6 +16,6 @@ Aneta LAURENT
 </ul>
 
 <h3>Site Web</h3>
-Lien pour le site de la WebAgency: https://formaline-shymy.github.io/OC-Projet1/
+<p>Lien pour le site de la WebAgency: https://formaline-shymy.github.io/OC-Projet1/</p>
 
 
