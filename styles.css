@@ -84,13 +84,12 @@ header{
 		 }
    
 header nav {
-	display:inline-block;
-        margin-left:570px;
-        margin-top: 35px;
-	margin-bottom:40px;
-	word-spacing: 1em;
-	
-	
+	margin-top: 35px;
+    	margin-bottom: 40px;
+        margin-right:100px;
+        word-spacing: 1em;
+        text-align: right;
+        width: 100%;
   	 }
      
 header nav a {
@@ -715,13 +714,14 @@ header{
 		 }
 	 
 header nav {
-	margin-left:0px;
-	margin-top: 15px;
-	}
+	text-align: center;
+    	}
 	 
 header nav a{
 	font-size:1.6em;
+	word-spacing: 0.5em;    
 }
+
 	
  header nav a:hover{
 	border-top:none;
@@ -783,16 +783,12 @@ display:none;
 	padding: 20px;
 	margin-left:80px;
   }
-
-
-.a-left{
 	
-  
+.a-left{
 	top: 20%;
 }
 
 .a-right{
-	
 	top: 20%;
 }
 	
@@ -841,22 +837,19 @@ display:none;
 
 
 .services-image img {
-    margin-top:15px;
+    	margin-top:15px;
 	margin-bottom:15px;
 			   	}	
 
 	
-	
-	
-	
  /****3-PORTFOLIO***/
  #portfolio{
-		padding-top:0em;
+	padding-top:0em;
 		}
 	
  hr.line{
-  height: 1px;
-  width:30%;
+  	height: 1px;
+  	width:30%;
  }
  
 #portfolio br{
@@ -864,16 +857,15 @@ display:none;
 }
 
 article {
- text-align:center;
- width:100%;
- margin-top:1.5em;
+ 	text-align:center;
+ 	width:100%;
+ 	margin-top:1.5em;
 
 }
  
  
 .eye{
-    
-    left: 290px;
+       left: 290px;
 }
 
 	
@@ -883,23 +875,22 @@ article {
 	display:none;
 }
 
-form
-	{  	
-		position: relative;
-		background: #DCDCDCy;
-		left: 0;
-		padding: 15px 0px 15px 0px;
-		margin-left: 20%;
-		margin-right: 20%;
-		width: 65%;
-		transform: translate(0);
+form{  	
+	position: relative;
+	background: #DCDCDCy;
+	left: 0;
+	padding: 15px 0px 15px 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 65%;
+	transform: translate(0);
 	}
 		
 .sent, .message{
-	       width: 90%;
-		max-width: 90%;
-		font-size:0.8em;
-		margin-left:20px;
+	width: 90%;
+	max-width: 90%;
+	font-size:0.8em;
+	margin-left:20px;
 		
 }
 h1, p {
@@ -921,13 +912,16 @@ button{
 header{
 	display:block;
 	text-align:center;
-    
-}
-header nav a {
-	font-size:2em;
-	padding-top:25px;
-}
+	}
 
+header nav {
+	text-align: center;
+    	}
+
+header nav a {
+	font-size:1.6em;
+	padding-top:25px;
+	}
 
 header nav a:hover{
 	border-top:none;
@@ -950,9 +944,8 @@ header nav {
 	padding-top:100px;
 }
 .blue-line {
- display: none;
+	 display: none;
 }
-
 
 #slider1{
 	float: none;
@@ -970,16 +963,32 @@ header nav {
 	margin-left:15%;
 	position:static;
 	color:#585858;
-	
 }
 
 .slider-text h1{
 	margin-bottom:1em;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	line-height: 1.2em;
 	letter-spacing: 0;
 	}
+	
+.slider-text p{
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: 0px;
+	padding-left:80px; ;
+	margin-bottom:100px;
+	text-align:left;
+		}
+ 
+.slider-text a {
+	font-size: 1.1em;
+	padding: 10px;
+	margin-left:80px;	
+  }
 
+	
+	
 .arrows{
 	font-size:0.5em}
 	
