@@ -4,7 +4,7 @@
 <h3>Auteur:</h3>
 <p>Aneta LAURENT</p>
 
-<h3>Fichiers</h3>
+<h3>Fichiers:</h3>
 <ul>
   <li>index.html</li>
   <li>styles.css</li>
