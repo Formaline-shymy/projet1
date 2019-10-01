@@ -11,14 +11,10 @@
 
 @font-face {
     font-family: 'robotobold';
-    src: url('Roboto-Bold-webfont.ttf') format('truetype');
+    src: url('fonts/Roboto-Bold-webfont.ttf') format('truetype');
 
 }
 
-@font-face {
-    font-family: 'roboto_condensedregular';
-    src: url('RobotoCondensed-Regular-webfont.ttf') format('truetype');
-}
 
 @font-face {
   font-family: 'FontAwesome';
