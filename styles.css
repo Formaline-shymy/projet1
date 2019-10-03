@@ -248,18 +248,18 @@ header nav a:hover{
 #services p { /**********2circles icon***/
 	font-size: 6px;
 	text-align:center;
-    position: relative;
-    z-index:2; 
+    	position: relative;
+    	z-index:2; 
  } 
 
 hr.line {
 	margin-top:-22px;
 	height: 1.5px;
-    border: 0;
-    background-color: #E8E8E8;
-    width:9%;
-    position: relative;
-    z-index:1;
+    	border: 0;
+    	background-color: #E8E8E8;
+    	width:9%;
+   	position: relative;
+    	z-index:1;
 }
 	
 /*************************main section page*****/
