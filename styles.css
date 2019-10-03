@@ -101,7 +101,7 @@ header nav a:hover{
 .grey-line{
 	
        margin-left:0px;
-	border-bottom: 5px solid grey; 
+	border-bottom: 5px solid #C0C0C0; 
 	height:40px;
 	width: 100%;
         position:absolute;
@@ -134,8 +134,8 @@ header nav a:hover{
 	margin-left:0px;
 	margin-right:0;
 	position:relative;
-	
 }
+
 #slider2{
 	margin-left: -100%;
 	float: left;
@@ -143,12 +143,11 @@ header nav a:hover{
 	width:100%;
 	height:auto;
 	position:relative;
-	
 }
 
 .slider-text{
 	position: absolute;
-    left: 10%;
+        left: 10%;
 	top: 25%;
 	padding-bottom: 15px;
 	color: #ffffff;
