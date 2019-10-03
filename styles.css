@@ -822,19 +822,14 @@ article {
 
 	
 	 /****4-CONTACT***/
-
-#blue-overlay{
-	display:none;
-}
-
-form{  	
-	position: relative;
-	background: #DCDCDCy;
+form{
+        background: #DCDCDCy;
 	left: 0;
+	bottom:40%;
 	padding: 15px 0px 15px 0px;
-	margin-left: 20%;
+	margin-left: 10%;
 	margin-right: 20%;
-	width: 65%;
+	width: 85%;
 	transform: translate(0);
 	}
 		
