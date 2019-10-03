@@ -912,12 +912,12 @@ header nav {
 
 /****1-ACCEUIL***/
 #accueil{
-	min-height:45vh;
+	padding-bottom:10px;
 	padding-top:100px;
 	}
 .slider-text{
 	position: absolute;
-    left: 8%;
+       left: 8%;
 	top: 25%;
 	padding-bottom: 15px;
 	text-align: left; 
@@ -930,7 +930,7 @@ header nav {
 
 .slider-text p{
 	text-align:left;
-	
+	}
 
  /****2-SERVICES***/
  
