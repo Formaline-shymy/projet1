@@ -18,4 +18,7 @@
 <h3>Site Web</h3>
 <p>Lien pour le site de la WebAgency: https://formaline-shymy.github.io/OC-Projet1/</p>
 
-
+<h3>Validation html:</h3>
+<p>  </p>
+<h3>Validation css:</h3> 
+<p>https://jigsaw.w3.org/css-validator/validator#css
