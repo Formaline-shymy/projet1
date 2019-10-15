@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles1.css">
   <script src="https://kit.fontawesome.com/f8a2746b4c.js" crossorigin="anonymous"></script>
   <title>WebAgency</title>
  </head>
@@ -302,14 +302,16 @@
 	 </div> 
         
         <form>
+		   <div id="adress">
               <h1> Contact Info </h1>
               <p> <span>WebAgency SAS</span> <br> 25 Rue d'Hauteville 75010 Paris<br>Tel: 01 02 03 04 05 </p>
+			</div>
 
-             <input type="text" required placeholder="Nom" id="nom" class="sent" />
-             <input type="text" required placeholder="Email" id="email" class="sent"/>
-             <input type="text" required placeholder="Subjet" id="sujet" class="sent"/>
-             <textarea class="message" required placeholder="Message" id="message"></textarea> 
-             <button type="submit">Envoyer Message</button>  
+            <input class="sent" type="text" name="nom" placeholder="Nom" required /><br />
+            <input class="sent" type="email" name="email" placeholder="E-mail" required /><br />
+            <input class="sent" type="text" name="sujet" placeholder="Sujet" required /><br />
+            <textarea class="sent" name="message" placeholder="Message" required></textarea><br /> 
+            <button type="submit">Envoyer Message</button>  
       </form>
       
    </section>
