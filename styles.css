@@ -26,7 +26,6 @@
     background-color:#FFFFFF;
 	margin: 0;
 	overflow-x: hidden;
-
 }
 
  /**************************** Menu ***********************************/
@@ -265,7 +264,7 @@ hr.line {
     position: relative;
     z-index:1;
 }
-	
+
 /*************************main section page*****/
 #page {
 	display: flex;
@@ -275,7 +274,6 @@ hr.line {
 	height: auto;
 	width:auto;
 }
-
 
 .services-image {
     width: 40%;
