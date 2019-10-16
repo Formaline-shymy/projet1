@@ -26,6 +26,7 @@
     background-color:#FFFFFF;
 	margin: 0;
 	overflow-x: hidden;
+
 }
 
  /**************************** Menu ***********************************/
@@ -135,6 +136,8 @@ header nav a:hover{
 	margin-left:0px;
 	margin-right:0;
 	position:relative;
+	top: 50px;
+	overflow:hidden;
 	
 }
 #slider2{
@@ -144,6 +147,8 @@ header nav a:hover{
 	width:100%;
 	height:auto;
 	position:relative;
+	top: 50px;
+
 	
 }
 
@@ -200,6 +205,7 @@ header nav a:hover{
 	position: absolute;
     left: -1.5%;
 	top: 40%;
+	overflow: hidden;
 	
 }
 
@@ -207,6 +213,7 @@ header nav a:hover{
 	position: absolute;
     right: -1.5%;
 	top: 40%;
+	overflow: hidden;
 }
 
 
@@ -264,7 +271,7 @@ hr.line {
     position: relative;
     z-index:1;
 }
-
+	
 /*************************main section page*****/
 #page {
 	display: flex;
@@ -274,6 +281,7 @@ hr.line {
 	height: auto;
 	width:auto;
 }
+
 
 .services-image {
     width: 40%;
@@ -572,9 +580,7 @@ figcaption .title  {
 	width:100%;
 	height:95vh;
 	background-color: #008CBA;
-
-  
- }
+  }
 
 	
 form {
@@ -582,7 +588,9 @@ form {
   width: 20em;
   left: 70em;
   bottom: 40em;
-  background-color: rgba(255, 255, 255, .7);
+  background-color:#F5F5F5;
+  box-shadow:0 8px 10px #FFFFFF, 0 4px 4px;
+  border: 2px solid #E8E8E8;
   padding: 10px 10px;
 }
     
@@ -880,34 +888,67 @@ header nav {
 	margin-left:0px;
 	margin-top: 9px;
 		 }
+.grey-line, .blue-line {
+	display: none;}
 
 /****1-ACCEUIL***/
+
 #accueil{
 	padding-bottom:10px;
 	padding-top:100px;
 	}
 	
 .slider-text{
-	position: absolute;
-    left: 8%;
-	top: 25%;
-	padding-bottom: 15px;
-	text-align: left; 
-	width:650px;
-	}
-	 
-.slider-text h1{
-	text-align:left;
-	font-size: 1.5em;
-		}
+	position:static;
+	color:#585858;
+	width:95%;
+	left: 8%;
+	padding-top: 140px;
+	
+}
+	
 
-.slider-text p{
-	text-align:left;
-	font-size: 0.8em;
+.slider-text br{
+display:none;
 }
 
-.slider-text a{
+.slider-text h1{
+	justify-content: center;
+	margin-bottom:1em;
+	text-align:left;
+	line-height: 1.2em;
+	letter-spacing: 0;
+	padding-left:60px; 
+	padding-top: 180px;
+	}
+
+.slider-text p{
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+	padding-left:80px; 
+	padding-right:30px;
+	margin-bottom:80px;
+	text-align:left;
+		}
+
+  .slider-text a{
 	font-size: 0.8em;
+	padding: 20px;
+	margin-left:80px;
+  }
+	
+.a-left{
+	top: 25%;
+	font-size:85%;
+	
+	
+}
+
+.a-right{
+	top: 25%;
+	font-size:85%;
+	
 }
 
  /****2-SERVICES***/
@@ -980,22 +1021,22 @@ header nav {
 /*****4- CONTACT****/
 
 textarea {
-        height: 7em;
+        height: 5em;
     }
 
 form {
-      left: 22em;
-      bottom: 38em;
-      height: 85%;
+      left: 5em;
+      bottom: 35em;
+      height: 50%;
     }
 
 
 h1, p {
 	text-align:left;
-	font-size:1em;
+	font-size:0.9em;
 	margin-left:20px;
 	margin-bottom:30px;
-    
+   
 }
 
 button{
