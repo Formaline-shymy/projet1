@@ -24,65 +24,66 @@
 
   body {
     background-color:#FFFFFF;
-	margin: 0;
+	margin:0px;
 	overflow-x: hidden;
-
+	width:100vw;
 }
-
- /*************************** Menu ***********************************/
-header{
-    display:flex;
-    z-index:20;
-    top:0; 
+ /**************************** Menu ***********************************/
+ header {
+   	display:flex;
+	z-index:20;
+	top:0; 
     left:0;
     right:0;
     height:auto;
     position:fixed;
 	margin-right:auto;
-	margin-left:10px;
 	margin-bottom:20px;
-	background-color:#FFFFFF;
+	background-color:white;
 	}
 
   header img {
-	margin-left:220px;
-	margin-top: 25px; 
-	margin-bottom: 10px;
-		 }
-   
+	 margin-left:220px;
+	 margin-top: 25px; 
+	 margin-bottom: 10px;
+	 height:46px;
+	 		 }
+			 
 header nav {
-	margin-top: 35px;
-    margin-bottom: 40px;
+	text-align: right;
     margin-right:100px;
-    word-spacing: 1em;
-    text-align: right;
-    width: 100%;
+    margin-top: 35px;
+	margin-bottom:40px;
+	word-spacing: 1em;
+	width: 100%;
   	 }
-     
+	 
 header nav a {
 	color: #000000;
 	font-family: 'robotothin';
+	font-weight:800;
 	padding-top:2px;
 	font-size: 1em;
 	text-decoration: none;
-
 }
 
 header nav a:hover{   
     padding-top: 32px;
     font-family:'robotothin';
+    font-weight: bold;
     border-top: 3px solid #5897D0;  /* BLUE*/
  }
+ 
 
-/************************************************************* page 1 ACCEUIL ***************************************************/
+/******************************************************* page 1 ACCEUIL ***************************************************/
 #accueil{
 	margin-top:2em;
-	margin-right: 0;
-	margin-left:10px;
+	margin-right:0px;
+	margin-left:0px;
 	height:auto;
-	min-height:80vh;
-	max-width:100vw;
-		}
+	min-width:100%;
+	
+	}
 
 @keyframes slider{
 	0% {
@@ -100,54 +101,42 @@ header nav a:hover{
 }
 }
 
-.grey-line{
-	
-    margin-left:0px;
-	border-bottom: 5px solid #C0C0C0; 
-	height:40px;
-	width: 99.8%;
-    position:absolute;
-	margin-top:0;
-	margin-bottom:0;
-}
-
 .blue-line {
 	margin-left:0px;
 	width:180px;
 	border-bottom: 5px solid #588dd0; 
-	height:40px;
-    position:absolute;	
+    height:40px;  
 }
 
-#slider{
+
+ #slider{
 	position:relative;
     width:100%;
 	top: 50px;
     margin-bottom:10px;
 	z-index:1;
-	overflow:hidden;
-}
+	overflow:hidden; 
+
+		}
 		
 #slider1{
 	float: right;
-	animation: 10s slider ease-in-out infinite 3s;	
+	animation: 15s slider ease-in-out infinite 10s;	
 	width:100%;
 	height:auto;
 	margin-left:0px;
-	margin-right:0;
+	margin-right:0px;
 	position:relative;
-	top: 50px;
-	overflow:hidden;
 	
 }
 #slider2{
 	margin-left: -100%;
 	float: left;
-	animation: 10s slider ease-in-out infinite 3s;
+	animation: 15s slider ease-in-out infinite 10s;
 	width:100%;
 	height:auto;
 	position:relative;
-	top: 50px;
+	
 }
 
 .slider-text{
@@ -157,7 +146,7 @@ header nav a:hover{
 	padding-bottom: 15px;
 	color: #ffffff;
 	text-align: left; 
-	width:650px;
+	
 }
 
 .slider-text span {
@@ -196,22 +185,20 @@ header nav a:hover{
 }
 
 .arrows{
-	font-size:0.8em}
+	font-size:0.8em
+	}
 	
 
 .a-left{
 	position: absolute;
     left: -1.5%;
 	top: 40%;
-	overflow: hidden;
-	
 }
 
 .a-right{
 	position: absolute;
     right: -1.5%;
 	top: 40%;
-	overflow: hidden;
 }
 
 
@@ -220,17 +207,16 @@ header nav a:hover{
 	padding-left: 6em;
 	padding-right:6em;
 	padding-bottom:3em;
-	padding-top: 8em;
+	padding-top: 5em;
 	height:auto;
 	max-width:100vw;
 	margin-right: 0;
-	margin-left:10px;
 	margin-top:1em;
-	
+		
 		}
 		
 .services-text{  
-    padding: 20px 0 20px 0;
+   padding: 20px 0 20px 0;
    
 }
 
@@ -254,22 +240,26 @@ header nav a:hover{
 /**********services line&circles separator ********/
 
 #services p { /**********2circles icon***/
-	font-size: 6px;
-	text-align:center;
-    position: relative;
-    z-index:2; 
+	 font-size: 6px;
+	 text-align:center;
+     position: relative;
+     z-index:2;
+	 
  } 
 
 hr.line {
-	margin-top:-22px;
-	height: 1.5px;
-    border: 0;
-    background-color: #E8E8E8;
-    width:9%;
-    position: relative;
-    z-index:1;
+  margin-top:-22px;
+  height: 1.5px;
+  border: 0;
+  background-color: #E8E8E8;
+  width:9%;
+  position: relative;
+  z-index:1;
+ 
 }
 	
+
+
 /*************************main section page*****/
 #page {
 	display: flex;
@@ -278,6 +268,7 @@ hr.line {
 	margin-left: 50px;
 	height: auto;
 	width:auto;
+	
 }
 
 
@@ -291,10 +282,10 @@ hr.line {
 }
 
  .services-image img{
-	margin-top:-150px;
-	width: 100%;
-    max-width: 510px;
-	height: auto;
+	 margin-top:-150px;
+	 width: 100%;
+     max-width: 510px;
+	 height: auto;
      
  }
 
@@ -309,42 +300,46 @@ hr.line {
 	list-style: none;
 	padding-top: 80px;
 	padding-left: 72px;
+	
 }
 
 .designSEO h3{
-  	text-align:left;
-  	font-family: 'robotobold';
-   	font-size: 0.9em;
-        padding-left: 10px;
+   text-align:left;
+   font-family: 'robotobold';
+   font-size: 0.9em;
+   padding-left: 10px;
+   
 }
 
  .designSEO h4 {
 	font-size: 0.9em;
- 	font-family:'robotothin', sans-serif;
-	margin-top:-12px;
-	margin-right: 0px;
+ 	font-family: 'robotothin' ;
+	font-family:'robotothin', sans-serif;
+	font-weight:800;
+	margin: -12px 0 30px 0;
 	padding-left: 10px;
 	line-height:1.5em;
    	text-align: justify;
+	
   	 }
 
 .listeicon{
-	width:80px;
-	margin-left: -77px;
-	margin-bottom:-65px;
-	padding:0;
+width:80px;
+margin-left: -77px;
+margin-bottom:-65px;
+padding:0;
 
 }
 
 .listeicon .dot {
-  	height: 58px;
-  	width: 58px;
-  	background-color: transparent;
-  	border-radius: 50%;
-  	border:2px solid lightgrey;
-  	display: inline-block;
-  	margin-right:-47px;
-  	margin-bottom: -20px;
+  height: 58px;
+  width: 58px;
+  background-color: transparent;
+  border-radius: 50%;
+  border:2px solid lightgrey;
+  display: inline-block;
+  margin-right:-47px;
+  margin-bottom: -20px;
 }
 
 
@@ -352,22 +347,23 @@ hr.line {
 	padding-bottom:50px;
 	}
 
+
+
 /******************************************************************* page 3 PORTFOLIO **************************************************/
 #portfolio{
 	background-color: #F0F0F0;
 	padding-left: 6em;
 	padding-right:6em;
 	padding-bottom:3em;
-	padding-top: 8.5em;
+	padding-top: 5em;
 	height:auto;
 	max-width:100vw;
-	margin-right: 0;
-	margin-left:10px;
+	
 	}
 	
 	
 .portfolio-text{  
-    padding: 20px 0 20px 0;
+   padding: 20px 0 20px 0;
 }
 
  .portfolio-text h1{
@@ -380,6 +376,7 @@ hr.line {
 .portfolio-text article {
 	font-family:'robotothin', sans-serif;
 	font-size: 0.9em;
+	font-weight:600;
 	line-height: 1.6em;
 	text-align: center;
 	padding-bottom: 20px;
@@ -389,34 +386,36 @@ hr.line {
 	/**********portfolio line&circles separator ********/
 
 #portfolio p { /**********2circles icon***/
-	font-size: 6px;
-	text-align:center;
-    position: relative;
-    z-index:2;
+	 font-size: 6px;
+	 text-align:center;
+     position: relative;
+     z-index:2;
 	 
  } 
 
 hr.line {
-  	margin-top:-22px;
-  	height: 1.5px;
-  	border: 0;
-  	background-color: #DCDCDC;
-  	width:10%;
-  	position: relative;
- 	z-index:1;
- }
+  margin-top:-22px;
+  height: 1.5px;
+  border: 0;
+  background-color: #DCDCDC;
+  width:10%;
+  position: relative;
+  z-index:1;
+ 
+}
+	
 	
 	/**********portfolio buttons********/
 
 .button-block{
-  	display: flex;
-  	justify-content: center; 
-  	border:3px solid #E8E8E8;
-  	width:350px;
-  	height:36px;
-  	border-radius:5px;
-  	cursor: pointer;
-  	margin:1em auto 2em auto;
+  display: flex;
+  justify-content: center; 
+  border:3px solid #E8E8E8;
+  width:350px;
+  height:36px;
+  border-radius:5px;
+  cursor: pointer;
+  margin:1em auto 2em auto;
 }
 .button-block:hover{
 	border:none;
@@ -463,79 +462,79 @@ hr.line {
 	}
  
 a:hover .triangle  {
-  	border-style: solid;
-  	border-width: 7px;
-  	border-color: #0066CC transparent transparent transparent;
-  	position: relative;
-  	top: 31px;
-  	right: 30px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #0066CC transparent transparent transparent;
+  position: relative;
+  top: 31px;
+  right: 30px;
 }
 
 .button-one:hover .triangle  {
-   	right: 22px;
+   right: 22px;
 }
 .button-two:hover .triangle , .button-three:hover .triangle{
-   	right: 40px;
+   right: 40px;
 }
 	
 	
 	
 	/***portolio images***/
 #projets{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 30px;
   
   }
   
 #projets img {
   border: none;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    max-width: 100%;
-    cursor: pointer;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  cursor: pointer;
 }
 .container {
-	position: relative;
-	padding: 0;
-	margin: 0;
+position: relative;
+padding: 0;
+margin: 0;
 }
 
 .container img {
-	display: block;
-	width: 100%;
-	height: auto;
+display: block;
+width: 100%;
+height: auto;
 }
 
 figcaption {
-	opacity:0;
-	position: absolute;
-	width: 100%;
-	height: 30%;
-	left: 0;
-	bottom: 0;
-	padding: 0.5em;
-	z-index: 2;
-	box-sizing: border-box;
-	background-color: rgba(0, 0, 0, 0.4);/***use RGBA color values to not apply opacity to child element***/
+opacity:0;
+position: absolute;
+width: 100%;
+height: 30%;
+left: 0;
+bottom: 0;
+padding: 0.5em;
+z-index: 2;
+box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.4);/***use RGBA color values to not apply opacity to child element***/
 
 }
 
 figcaption:hover{
-	opacity:1;
-	color: #FFFFFF;
+opacity:1;
+color: #FFFFFF;
 }
 
 figcaption .title  {
-    margin-top:0.2em;
-    font-family:'robotoregular', sans-serif;
-    font-size:0.9em;
-    font-weight:600;
+  margin-top:0.2em;
+  font-family:'robotoregular', sans-serif;
+  font-size:0.9em;
+  font-weight:600;
  }
 
  figcaption .description  {
-  	font-family:'robotothin', sans-serif;
-  	font-size:0.8em;
-  	font-weight:600;
+  font-family:'robotothin', sans-serif;
+  font-size:0.8em;
+  font-weight:600;
  }
  
  .eye{
@@ -553,80 +552,98 @@ figcaption .title  {
 	font-size:17px;
 	}
  
+
+ 
 /****************************************************** page 4 CONTACT ******************************************************/
 #contact{
 	height:auto;
 	width:auto;
 	padding-top:5em;
 	margin-top:30px;
-	margin-right: 0;
-	margin-left:10px;
 	position:relative;
 	
   }
 
  .iframe-map{
-    width:100%;
-    height:95vh;
-    border:none;
-	opacity: 0.6;
-  
-} 
+  width:100%;
+  height:95vh;
+  border:none;
+  opacity: 0.6;
+  } 
   
   
 #blue-overlay{
-	width:100%;
-	height:95vh;
-	background-color: #008CBA;
-  }
+  width:100%;
+  height:95vh;
+  background-color: #008CBA;
+    
+ }
 
 	
 form {
- position: relative;
-  width: 20em;
-  left: 70em;
-  bottom: 40em;
-  background-color:#F5F5F5;
-  box-shadow:0 8px 10px #FFFFFF, 0 4px 4px;
-  border: 2px solid #E8E8E8;
-  padding: 10px 10px;
+	width:269px;
+	border: 2px solid #E0E0E0;
+    background-color:#F5F5F5;
+    box-shadow:0 8px 10px #FFFFFF, 0 4px 4px;
+	opacity:0.9;
+	padding: 5px 10px 5px 10px;
+	position:absolute;
+	right: 10%;
+    bottom: 10%;
+  			
 }
     
 	
 .sent {
- padding: 3px 3px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  width: 98%;
-  margin: .7em 0;
-  line-height: 22px;
-  font-family: 'roboto', sans-serif;
+	  padding:10px 10px;
+      margin: 10px;
+	  width:220px;
+      height: 10px;
+	  background:#FFFFFF;
+	  border-bottom: 1px  #F8F8F8;
+	  border-top: 1px  #F8F8F8;
+	  border-left:1px  #F8F8F8;
+      border-right:1px #F8F8F8;
+      font-family: 'roboto', sans-serif;
+	  font-size: 0.7em;
 }
 
-textarea {
-    height: 14.5em;
-    
+.message {
+      padding:10px 10px;
+      margin: 10px;
+	  width:220px;
+      height: 130px;
+	  background:#FFFFFF;
+	  border-bottom: 1px  #F8F8F8;
+	  border-top: 1px  #F8F8F8;
+	  border-left:1px  #F8F8F8;
+      border-right:1px #F8F8F8;
+      font-family: 'roboto', sans-serif;
+	  font-size: 0.7em;
+ 	  
 }
 
 h1 {
-    margin: 10px; 
-    font-family: 'roboto', sans-serif;
-	font-size: 1.2em;
-	}
+      margin: 10px; 
+      font-family: 'roboto', sans-serif;
+	  font-size: 1.2em;
+	  
+ 
+}
 
 p {
-    margin: 10px; 
-    font-family: 'robotothin', sans-serif;
-	font-size: 0.9em; 
-	font-weight:bold;
+     margin: 10px; 
+     font-family: 'robotothin', sans-serif;
+	 font-size: 0.8em; 
+	 font-weight:bold;
 	 
    
 }
 
 p span{
-    font-weight: bold;
-    font-family: 'roboto', sans-serif;
-    font-size: 1.2em;
+     font-weight: bold;
+     font-family: 'roboto', sans-serif;
+     font-size: 1.2em;
      
 }
 
@@ -648,321 +665,88 @@ button {
 
 
  /***FIN ***page 4 contact ***/
-
-
+ 
+ 
 /***********************************************MEDIA QUERRIES*****************************************************************/
-/***----------smartphones--------**/ 
-@media all and (max-device-width: 480px) {
- 
- /****0-MENU--***/
-header{
-	display:block;
-	text-align:center;
-	margin-bottom:5px;
-       }
-	
- header img {
-	margin-left:0px;
-	margin-top:5px;
-	margin-bottom:0px;
-	width:208.8px;
-			 }
-	 
-header nav {
-	text-align: center;
-    	}
-	 
-header nav a{
-	font-size:1.6em;
-	word-spacing: 0.5em;    
+
+
+@media all and (max-width: 870px){ 
+
+  body{
+	background-color: red;
 }
 
-	
- header nav a:hover{
-	border-top:none;
-	}
-	
-	/****1-ACCEUIL***/
-#accueil{
-	min-height:40vh;
-	padding-top:80px;
-	
-}
-.blue-line
-{
-	display: none;}
-	
- .grey-line {
-	display: none;
-}
-
-#slider{
-	width:100%;
-	margin:0;
-}
-
-#slider1{
-	float: none;
-	animation: stop;
-	margin-top:30px;
-	margin-bottom:50px;	
-}
-
-#slider2{
-	display: none;
-	 		}
-
-.slider-text{
-	margin-top: 5%;
-	margin-left:0%;
-	position:static;
-	color:#585858;
-	width:85%;
-}
-
-.slider-text br{
-display:none;
-}
-
-.slider-text h1{
-	margin-bottom:1em;
-	text-align:left;
-	line-height: 1.2em;
-	letter-spacing: 0;
-	padding-left:80px; 
-	}
-
-.slider-text p{
-	font-size: 1em;
-	line-height: 1.5em;
-	letter-spacing: 0px;
-	padding-left:80px; 
-	margin-bottom:80px;
-	text-align:left;
-		}
-
-  .slider-text a{
-	
-	font-size: 0.8em;
-	padding: 20px;
-	margin-left:80px;
-  }
-	
-.a-left{
-	top: 20%;
-}
-
-.a-right{
-	top: 20%;
-}
-	
-	
-	
- /****2-SERVICES***/
-  
- .services-text{
-	 padding-bottom:0;
-	 padding-left:0;
-	 width:80vw;
-	  }
-	  
-.services-text article {
-	font-size: 0.8em;
-	line-height: 1.5em;
-	text-align: justify;
-	padding-top: 25px;
-	padding-bottom:0;
-	width:100%;
-		}
-
-.services-text article br{
-	display:none;
-} 
-	
-#page {
-	flex-flow: column wrap;
-	margin-left:0px;
-	}
-	
- .services-liste  {
-   width:100%;  
- }
- 
- .services-liste ul{
-	font-size:1.1em;
-	padding-top:10px;
-}
-
-.services-image{
-	width:50%;
-	margin-top:30px;
-	}
-
-
-.services-image img {
-    margin-top:15px;
-	margin-bottom:15px;
-			   	}	
-
-	
- /****3-PORTFOLIO***/
-
- hr.line{
-  	height: 1px;
-  	width:30%;
- }
- 
-#portfolio br{
-	display:none;
-}
-
-article {
- 	text-align:center;
- 	width:100%;
- 	margin-top:1.5em;
-
-}
- 
- 
-.eye{
-       left: 290px;
-}
-
-	
-	 /****4-CONTACT***/
-
-form {
-        position: relative;
-        top: -38em;
-        left: 0;
-        margin: 1.2em auto;
-        width: 65%;
-    }
-textarea {
-        height: 5em;
-    }
-		
-h1, p {
-	text-align:center;
-	font-size:0.8em;
-    
-}
-button{
-	margin-left: 25%;
-}
-
-}
-
-
-/**------------------------tablets---------------------------**/
-@media all and (min-device-width: 480px) and (max-device-width: 800px){
 /****0-MENU--***/
 
 header{
 	display:block;
 	text-align:center;
-	}
-
-header nav {
-	text-align: center;
-    	}
-
-header nav a {
-	font-size:1.3em;
-	padding-top:25px;
-	}
+    height:118px;
+}
 
 header nav a:hover{
 	border-top:none;
 	}
 	
  header img {
-	
+	width:208.8px;
 	margin-left:0;
 	margin-top:9px;
-	 }
+	text-align:center;
+		 }
 	 
 header nav {
-	margin-left:0px;
+	
 	margin-top: 9px;
-		 }
-.grey-line, .blue-line {
-	display: none;}
+	text-align:center;
+		 } 
 
 /****1-ACCEUIL***/
-
 #accueil{
-	padding-bottom:10px;
-	padding-top:100px;
-	}
-	
-.slider-text{
-	position:static;
-	color:#585858;
-	width:95%;
-	left: 8%;
-	padding-top: 140px;
-	
+		padding-top:100px;
 }
-	
 
-.slider-text br{
-display:none;
-}
+#slider1{
+	animation: stop;
+	    }
+
+#slider2{
+	display: none;
+	 	}
+
 
 .slider-text h1{
-	justify-content: center;
 	margin-bottom:1em;
-	text-align:left;
+	font-size: 1.5em;
 	line-height: 1.2em;
 	letter-spacing: 0;
-	padding-left:60px; 
-	padding-top: 180px;
+	margin-bottom:10px;
 	}
 
-.slider-text p{
-	font-size: 1em;
-	line-height: 1.5em;
-	letter-spacing: 0px;
-	padding-left:80px; 
-	padding-right:30px;
-	margin-bottom:80px;
-	text-align:left;
-		}
-
-  .slider-text a{
+.slider-text a{
 	font-size: 0.8em;
-	padding: 20px;
-	margin-left:80px;
-  }
+	}
 	
-.a-left{
-	top: 25%;
-	font-size:85%;
-	
-	
-}
+.slider-text p{
+	font-size: 0.9em;
+	margin-bottom:30px;
+	}
 
-.a-right{
-	top: 25%;
-	font-size:85%;
+
+.arrows{
+	font-size:0.7em
+	}
 	
-}
 
  /****2-SERVICES***/
  
  #services{
-	padding-top:8.7em;
- }
-
-.services-text article{
-
-	font-size: 1em;
-	font-weight:800;
-	line-height: 1.4em;
-	text-align: justify;
+	 padding-top:5.5em;
+	 }
+	 
+.services-text article {
+	
 	padding-bottom: 15px;
-	padding-top: 10px;
 		}
 
 .services-text article br{
@@ -972,43 +756,47 @@ display:none;
 #page {
 	flex-flow: column wrap;
 	margin-left:0px;
-	}
+		}
 	
- .services-liste  {
-   	width:90%
- }
+.services-liste  {
+   width:90%;
+  
+		}
  
- .services-liste ul{
+.services-liste ul{
 	font-size:1em;
 	padding-top:10px;	
-}
+	
+		}
 
 .services-image{
 	width:90%;
-}
-
+		}
 
 .services-image img {
     margin-top:0;
 	   	}
-	
-hr.line {
-    margin-top:-22px;
-    height: 1.5px;
-    border: 0;
-    background-color:orange;
-    width:9%;
-    position: relative;
-    z-index:1;
+
+.listeicon .dot {
+  height: 38px;
+  width: 38px;
+  margin-right:-33px;
+  margin-bottom: -15px;
+  }
+
+.listeicon .icons{
+ font-size: 5px;
+}
+
 
 /****3-PORTFOLIO***/
 .portfolio-text{  
-   	padding-top:5.7em; 
+   padding-top: 2.5em; 
 }
  
  hr.line{
-  	height: 1px;
-  	width:40%;
+  height: 1px;
+  width:40%;
  }
 
 #portfolio br{
@@ -1016,38 +804,66 @@ hr.line {
 }
 
 .eye{
-    
     left:80%;
 }
 
-
-
-
 /*****4- CONTACT****/
 
-textarea {
-        height: 5em;
-    }
-
-form {
-      left: 5em;
-      bottom: 35em;
-      height: 50%;
-    }
-
-
-h1, p {
-	text-align:left;
-	font-size:0.9em;
-	margin-left:20px;
-	margin-bottom:30px;
-   
+form{
+	right: 30%;
+    bottom: 20%;
+		
+}
 }
 
-button{
-	margin-left: 30%;
+
+
+
+@media all and (max-device-width: 480px){
+
+  body{
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media all and  (min-device-width: 480px)and (max-width: 704px){ 
+body{
+	background-color: pink;
+}
+.slider-text{
+	margin-top: 38%;
+	margin-left:15%;
+	position:static;
+	color:#585858;
+			}
+
+
+.arrows{
+	font-size:0.5em
+	}
 	
+
+.a-left{
+	top: 25%;
+}
+
+.a-right{
+	
+    top: 25%
+		}
+
+.blue-line {
+ display:none
 }
 
 }
-}
+
