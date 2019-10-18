@@ -127,8 +127,7 @@ header nav a:hover{
 	margin-left:0px;
 	margin-right:0px;
 	position:relative;
-		
-}
+		}
 
 #slider2{
 	margin-left: -100%;
@@ -145,13 +144,12 @@ header nav a:hover{
 	top: 25%;
 	padding-bottom: 15px;
 	color: #ffffff;
-	text-align: left; 
-	
-}
+	text-align: left; 	
+		}
 
 .slider-text span {
     color: #5897D0;	
-}
+	}
 
 .slider-text h1{
 	font-family: 'robotobold', sans-serif;
@@ -160,7 +158,7 @@ header nav a:hover{
 	letter-spacing: -2px;
 	margin-bottom:15px;
 	text-transform: uppercase;
-}
+		}
 
 
 .slider-text p{
@@ -180,8 +178,8 @@ header nav a:hover{
 	text-decoration: none;
 	text-align:center;
 	border-radius: 4px;
-    border:none;
-    padding: 10px;
+        border:none;
+        padding: 10px;
 	margin-left:12px;
 }
 
@@ -192,13 +190,13 @@ header nav a:hover{
 
 .a-left{
 	position: absolute;
-    left: -1.5%;
+        left: -1.5%;
 	top: 40%;
 }
 
 .a-right{
 	position: absolute;
-    right: -0.3%;
+        right: -1.5%;
 	top: 40%;
 }
 
@@ -216,7 +214,7 @@ header nav a:hover{
 			}
 		
 .services-text{  
-   padding: 20px 0 20px 0;
+       padding: 20px 0 20px 0;
       
 }
 
