@@ -1,16 +1,16 @@
 /* polices personnalisées */
 @font-face {
-    font-family: 'robotoregular';
+    font-family:'robotoregular';
     src: url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'robotothin';
+    font-family:'robotothin';
     src: url('fonts/Roboto-Thin.ttf') format('truetype');
      }
 
 @font-face {
-    font-family: 'robotobold';
+    font-family:'robotobold';
     src: url('fonts/Roboto-Bold.ttf') format('truetype');
 }
 
@@ -103,16 +103,16 @@ header nav a:hover{
 
 .blue-line {
 	margin-left:0px;
-	width:180px;
-	border-bottom: 5px solid #588dd0; 
-    height:40px;  
+	width:190px;
+	border-bottom: 4px solid #588dd0; 
+    height:83px;  
 }
 
 
  #slider{
 	position:relative;
     width:100%;
-	top: 50px;
+	top: 93px;
     margin-bottom:10px;
 	z-index:1;
 	overflow:hidden; 
@@ -127,8 +127,9 @@ header nav a:hover{
 	margin-left:0px;
 	margin-right:0px;
 	position:relative;
-	
+		
 }
+
 #slider2{
 	margin-left: -100%;
 	float: left;
@@ -136,8 +137,7 @@ header nav a:hover{
 	width:100%;
 	height:auto;
 	position:relative;
-	
-}
+	}
 
 .slider-text{
 	position: absolute;
@@ -161,6 +161,7 @@ header nav a:hover{
 	margin-bottom:15px;
 	text-transform: uppercase;
 }
+
 
 .slider-text p{
 	font-family:'robotothin', sans-serif;
@@ -197,7 +198,7 @@ header nav a:hover{
 
 .a-right{
 	position: absolute;
-    right: -1.5%;
+    right: -0.3%;
 	top: 40%;
 }
 
@@ -209,45 +210,44 @@ header nav a:hover{
 	padding-bottom:3em;
 	padding-top: 5em;
 	height:auto;
-	max-width:100vw;
+	width:auto;
 	margin-right: 0;
 	margin-top:1em;
-		
-		}
+			}
 		
 .services-text{  
    padding: 20px 0 20px 0;
-   
+      
 }
 
  .services-text h1{
 	font-size: 1.8em;
 	font-family:'robotobold', sans-serif;
 	text-align: center;
-	
 }
 
-.services-text article {
+.services-text article h3 {
 	font-family:'robotothin', sans-serif;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight:800;
-	line-height: 1.6em;
+	line-height: 1.4em;
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 10px;
-			}
+				}
 
+
+				 
 /**********services line&circles separator ********/
 
-#services p { /**********2circles icon***/
+#services p{ /**********2circles icon***/
 	 font-size: 6px;
 	 text-align:center;
      position: relative;
      z-index:2;
-	 
- } 
+	 } 
 
-hr.line {
+hr.line{
   margin-top:-22px;
   height: 1.5px;
   border: 0;
@@ -255,61 +255,55 @@ hr.line {
   width:9%;
   position: relative;
   z-index:1;
- 
-}
+		}
 	
 
 
 /*************************main section page*****/
-#page {
+#page{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 2px;
 	margin-left: 50px;
 	height: auto;
 	width:auto;
-	
-}
+			}
 
 
-.services-image {
+.services-image{
     width: 40%;
 	height: auto;
     min-width:250px;
 	padding-top:0px;
-	margin:auto;
-				
-}
+	margin:auto;	
+		}
 
  .services-image img{
 	 margin-top:-150px;
 	 width: 100%;
      max-width: 510px;
 	 height: auto;
-     
- }
+		}
 
 .services-liste {
 	width:40%;
 	height: auto;
     min-width:250px;
 	margin:auto;  	
-	}
+		}
 	
 .services-liste ul{
 	list-style: none;
 	padding-top: 80px;
 	padding-left: 72px;
-	
-}
+		}
 
 .designSEO h3{
    text-align:left;
    font-family: 'robotobold';
    font-size: 0.9em;
    padding-left: 10px;
-   
-}
+		}
 
  .designSEO h4 {
 	font-size: 0.9em;
@@ -320,26 +314,25 @@ hr.line {
 	padding-left: 10px;
 	line-height:1.5em;
    	text-align: justify;
-	
-  	 }
+			}
 
 .listeicon{
-width:80px;
-margin-left: -77px;
-margin-bottom:-65px;
-padding:0;
+	width:80px;
+	margin-left: -77px;
+	margin-bottom:-65px;
+	padding:0;
 
 }
 
 .listeicon .dot {
-  height: 58px;
-  width: 58px;
-  background-color: transparent;
-  border-radius: 50%;
-  border:2px solid lightgrey;
-  display: inline-block;
-  margin-right:-47px;
-  margin-bottom: -20px;
+    height: 58px;
+    width: 58px;
+    background-color: transparent;
+    border-radius: 50%;
+    border:2px solid lightgrey;
+    display: inline-block;
+    margin-right:-47px;
+    margin-bottom: -20px;
 }
 
 
@@ -357,66 +350,67 @@ padding:0;
 	padding-bottom:3em;
 	padding-top: 5em;
 	height:auto;
-	max-width:100vw;
-	
-	}
-	
-	
+	width:auto;
+	margin-right: 0;
+	margin-top:1em;
+		}
+		
 .portfolio-text{  
-   padding: 20px 0 20px 0;
-}
+    padding: 20px 0 20px 0;
+		}
 
- .portfolio-text h1{
+.portfolio-text h1{
 	font-size: 1.8em;
 	font-family:'robotobold', sans-serif;
 	text-align: center;
-	
-	}
+		}
 
-.portfolio-text article {
+.portfolio-text article h3{
 	font-family:'robotothin', sans-serif;
-	font-size: 0.9em;
-	font-weight:600;
-	line-height: 1.6em;
+	font-size: 1em;
+	font-weight:800;
+	line-height: 1.4em;
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 10px;
-	} 
+				} 
+
+	
 	
 	/**********portfolio line&circles separator ********/
 
 #portfolio p { /**********2circles icon***/
-	 font-size: 6px;
-	 text-align:center;
-     position: relative;
-     z-index:2;
+	font-size: 6px;
+	text-align:center;
+    position: relative;
+    z-index:2;
 	 
  } 
 
 hr.line {
-  margin-top:-22px;
-  height: 1.5px;
-  border: 0;
-  background-color: #DCDCDC;
-  width:10%;
-  position: relative;
-  z-index:1;
- 
-}
-	
+    margin-top:-22px;
+    height: 1.5px;
+    border: 0;
+    background-color: #DCDCDC;
+    width:9%;
+    position: relative;
+    z-index:1;
+ }
+
 	
 	/**********portfolio buttons********/
 
 .button-block{
-  display: flex;
-  justify-content: center; 
-  border:3px solid #E8E8E8;
-  width:350px;
-  height:36px;
-  border-radius:5px;
-  cursor: pointer;
-  margin:1em auto 2em auto;
+   display: flex;
+   justify-content: center; 
+   border:3px solid #E8E8E8;
+   width:350px;
+   height:36px;
+   border-radius:5px;
+   cursor: pointer;
+   margin:1em auto 2em auto;
 }
+
 .button-block:hover{
 	border:none;
 }
@@ -434,6 +428,7 @@ hr.line {
     font-size: 1em;
     font-family:'robotoregular', sans-serif;
 }
+
 .button-one {
 	letter-spacing:0.3px;
 	}
@@ -462,79 +457,79 @@ hr.line {
 	}
  
 a:hover .triangle  {
-  border-style: solid;
-  border-width: 7px;
-  border-color: #0066CC transparent transparent transparent;
-  position: relative;
-  top: 31px;
-  right: 30px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #0066CC transparent transparent transparent;
+    position: relative;
+    top: 31px;
+    right: 30px;
 }
 
 .button-one:hover .triangle  {
-   right: 22px;
+    right: 22px;
 }
 .button-two:hover .triangle , .button-three:hover .triangle{
-   right: 40px;
+    right: 40px;
 }
 	
 	
 	
 	/***portolio images***/
 #projets{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 30px;
-  
-  }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    }
   
 #projets img {
-  border: none;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 100%;
-  cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    cursor: pointer;
 }
+
 .container {
-position: relative;
-padding: 0;
-margin: 0;
+	position: relative;
+	padding: 0;
+	margin: 0;
 }
 
 .container img {
-display: block;
-width: 100%;
-height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 figcaption {
-opacity:0;
-position: absolute;
-width: 100%;
-height: 30%;
-left: 0;
-bottom: 0;
-padding: 0.5em;
-z-index: 2;
-box-sizing: border-box;
-background-color: rgba(0, 0, 0, 0.4);/***use RGBA color values to not apply opacity to child element***/
+	opacity:0;
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	left: 0;
+	bottom: 0;
+	padding: 0.5em;
+	z-index: 2;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.4);/***using RGBA color values to not apply opacity to child element***/
 
 }
 
 figcaption:hover{
-opacity:1;
-color: #FFFFFF;
+	opacity:1;
+	color: #FFFFFF;
 }
 
 figcaption .title  {
-  margin-top:0.2em;
-  font-family:'robotoregular', sans-serif;
-  font-size:0.9em;
-  font-weight:600;
+	margin-top:0.2em;
+	font-family:'robotoregular', sans-serif;
+	font-size:0.9em;
+	font-weight:600;
  }
 
  figcaption .description  {
-  font-family:'robotothin', sans-serif;
-  font-size:0.8em;
-  font-weight:600;
+    font-family:'robotothin', sans-serif;
+    font-size:0.8em;
+    font-weight:600;
  }
  
  .eye{
@@ -565,17 +560,17 @@ figcaption .title  {
   }
 
  .iframe-map{
-  width:100%;
-  height:95vh;
-  border:none;
-  opacity: 0.6;
+    width:100%;
+    height:95vh;
+    border:none;
+    opacity: 0.6;
   } 
   
   
 #blue-overlay{
-  width:100%;
-  height:95vh;
-  background-color: #008CBA;
+    width:100%;
+    height:95vh;
+    background-color: #008CBA;
     
  }
 
@@ -595,55 +590,55 @@ form {
     
 	
 .sent {
-	  padding:10px 10px;
-      margin: 10px;
-	  width:220px;
-      height: 10px;
-	  background:#FFFFFF;
-	  border-bottom: 1px  #F8F8F8;
-	  border-top: 1px  #F8F8F8;
-	  border-left:1px  #F8F8F8;
-      border-right:1px #F8F8F8;
-      font-family: 'roboto', sans-serif;
-	  font-size: 0.7em;
+	padding:10px 10px;
+    margin: 10px;
+	width:220px;
+    height: 10px;
+	background:#FFFFFF;
+	border-bottom: 1px  #F8F8F8;
+	border-top: 1px  #F8F8F8;
+	border-left:1px  #F8F8F8;
+    border-right:1px #F8F8F8;
+    font-family: 'roboto', sans-serif;
+	font-size: 0.7em;
 }
 
 .message {
-      padding:10px 10px;
-      margin: 10px;
-	  width:220px;
-      height: 130px;
-	  background:#FFFFFF;
-	  border-bottom: 1px  #F8F8F8;
-	  border-top: 1px  #F8F8F8;
-	  border-left:1px  #F8F8F8;
-      border-right:1px #F8F8F8;
-      font-family: 'roboto', sans-serif;
-	  font-size: 0.7em;
+    padding:10px 10px;
+    margin: 10px;
+	width:220px;
+    height: 130px;
+	background:#FFFFFF;
+	border-bottom: 1px  #F8F8F8;
+	border-top: 1px  #F8F8F8;
+	border-left:1px  #F8F8F8;
+    border-right:1px #F8F8F8;
+    font-family: 'roboto', sans-serif;
+	font-size: 0.7em;
  	  
 }
 
 h1 {
-      margin: 10px; 
-      font-family: 'roboto', sans-serif;
-	  font-size: 1.2em;
+    margin: 10px; 
+    font-family: 'roboto', sans-serif;
+	font-size: 1.2em;
 	  
  
 }
 
 p {
-     margin: 10px; 
-     font-family: 'robotothin', sans-serif;
-	 font-size: 0.8em; 
-	 font-weight:bold;
+    margin: 10px; 
+    font-family: 'robotothin', sans-serif;
+	font-size: 0.8em; 
+	font-weight:bold;
 	 
    
 }
 
 p span{
-     font-weight: bold;
-     font-family: 'roboto', sans-serif;
-     font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2em;
      
 }
 
@@ -668,14 +663,7 @@ button {
  
  
 /***********************************************MEDIA QUERRIES*****************************************************************/
-
-
 @media all and (max-width: 870px){ 
-
-  body{
-	background-color: red;
-}
-
 /****0-MENU--***/
 
 header{
@@ -703,7 +691,7 @@ header nav {
 
 /****1-ACCEUIL***/
 #accueil{
-		padding-top:100px;
+	padding-top:100px;
 }
 
 #slider1{
@@ -736,7 +724,10 @@ header nav {
 .arrows{
 	font-size:0.7em
 	}
-	
+
+.a-right{
+    right:-2%;
+		}	
 
  /****2-SERVICES***/
  
@@ -744,9 +735,11 @@ header nav {
 	 padding-top:5.5em;
 	 }
 	 
-.services-text article {
-	
+.services-text h3 {
 	padding-bottom: 15px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    
 		}
 
 .services-text article br{
@@ -760,8 +753,7 @@ header nav {
 	
 .services-liste  {
    width:90%;
-  
-		}
+  		}
  
 .services-liste ul{
 	font-size:1em;
@@ -778,25 +770,25 @@ header nav {
 	   	}
 
 .listeicon .dot {
-  height: 38px;
-  width: 38px;
-  margin-right:-33px;
-  margin-bottom: -15px;
+	height: 38px;
+	width: 38px;
+	margin-right:-33px;
+	margin-bottom: -15px;
   }
 
 .listeicon .icons{
- font-size: 5px;
+	font-size: 5px;
 }
 
 
 /****3-PORTFOLIO***/
 .portfolio-text{  
-   padding-top: 2.5em; 
+    padding-top: 2.5em; 
 }
  
  hr.line{
-  height: 1px;
-  width:40%;
+    height: 1px;
+    width:40%;
  }
 
 #portfolio br{
@@ -810,35 +802,189 @@ header nav {
 /*****4- CONTACT****/
 
 form{
-	right: 30%;
-    bottom: 20%;
-		
+    right: 30%;
+    bottom: 30%;
+	
 }
 }
 
 
 
-
+/****************------------------------------------------------------------************************************************************************/
 @media all and (max-device-width: 480px){
+ /****0-MENU--***/
+header{
+	display:block;
+	text-align:center;
+	height:97px;
+	margin-bottom:5px;
+	
+       }
+	
+ header img {
+	margin-left:0px;
+	margin-top:5px;
+	margin-bottom:0px;
+	width:208.8px;
+	height:46px;
+		 }
+	 
+header nav {
+	margin-left:0px;
+	margin-top: 15px;
+    font-size:1em;
+	  	 }
+	 
+ header nav a:hover{
+	border-top:none;
+	}
 
-  body{
-  background-color: green;
+/****1-ACCEUIL***/
+#accueil{
+	min-height:80vh;
+	padding-top:80px;
+}
+.blue-line {
+    display: none;
+}
+
+#slider1{
+	float: none;
+	animation: stop;
+	margin-top:30px;
+	margin-bottom:50px;	
+}
+
+#slider2{
+	display: none;
+	 		}
+
+.slider-text{
+	margin-top: -5%;
+	margin-left:10%;
+	position:static;
+	color:#585858;
+	width:85%;
+}
+
+.slider-text br{
+	display:none;
+}
+
+.slider-text h1{
+	font-size: 1.4em;
+	letter-spacing: 0;
+	}
+	
+.slider-text p{
+	font-size: 1em;
+	letter-spacing: 0px;
+	line-height: 1.3em;
+	margin: 30px 0 40px 0;
+		}
+
+.arrows{
+	font-size:0.5em}
+	
+
+.a-left{
+	top: 18%;
+}
+
+.a-right{
+	top: 18%;
+}
+
+/****2-SERVICES***/
+ 
+#services{
+	padding-top:4.5em;
+	padding-left:1.7em;
+	  }
+	  
+ .services-text{
+	padding-bottom:0;
+	padding-left:0;
+	width:85vw;
+	 	  }
+	  
+.services-text article br{
+	display:none;
+} 
+
+#page {
+	flex-flow: column wrap;
+	margin-left:0px;
+	}
+	
+ .services-liste  {
+    width:85vw;
+    margin-left:0;   
+ }
+ 
+ .services-liste ul{
+	font-size:1em;
+	padding-top:10px;	
+}
+
+.services-image{
+	width:80%;
+	}
+
+.services-image img {
+    margin-top:15px;
+	margin-bottom:15px;
+			   	}	
+				
+.listeicon .dot {
+    height: 38px;
+    width: 38px;
+    margin-right:-33px;
+    margin-bottom: -15px;
+  }
+
+.listeicon .icons{
+	font-size: 5px;
+}
+
+/****3-PORTFOLIO***/
+ #portfolio{
+	padding-top:3em;
+	min-width:90%;
+	margin-left:-80px;
+}
+
+ hr.line{
+    height: 1px;
+    width:40%;
+ }
+
+#portfolio br{
+	display:none;
+}
+  
+ #projets{
+	grid-gap: 45px;
+ }
+
+.eye{
+    left:80%;
+}
+
+
+	 /****4-CONTACT***/
+
+form{  
+	right: 20%;
+    bottom: 30%;
+	padding:3px;
+		
+	}
 }
 
 
 
-
-
-
-
-
-}
-
-
-@media all and  (min-device-width: 480px)and (max-width: 704px){ 
-body{
-	background-color: pink;
-}
+@media all and  (min-device-width: 480px) and (max-width: 704px){ 
 .slider-text{
 	margin-top: 38%;
 	margin-left:15%;
@@ -846,24 +992,27 @@ body{
 	color:#585858;
 			}
 
-
 .arrows{
 	font-size:0.5em
 	}
-	
 
 .a-left{
 	top: 25%;
 }
 
 .a-right{
-	
-    top: 25%
+    top: 25%;
+	right:-2%;
 		}
 
 .blue-line {
- display:none
-}
-
+    display:none
+	}
+	
+form{
+	right: 30%;
+    bottom: 30%;
+}	
+	
 }
 
