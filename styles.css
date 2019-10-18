@@ -326,7 +326,7 @@ hr.line{
     width: 58px;
     background-color: transparent;
     border-radius: 50%;
-    border:2px solid lightgrey;
+    border:2px solid #C8C8C8;
     display: inline-block;
     margin-right:-47px;
     margin-bottom: -20px;
@@ -800,7 +800,7 @@ header nav {
 
 form{
     right: 30%;
-    bottom: 30%;
+    bottom: 5%;
 	
 }
 }
@@ -1008,7 +1008,7 @@ form{
 	
 form{
 	right: 30%;
-    bottom: 30%;
+    bottom: 5%;
 }	
 	
 }
