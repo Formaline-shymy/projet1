@@ -21,10 +21,11 @@
   font-style: normal;
 }
   body {
-    background-color:#FFFFFF;
+    background-color:red;
 	margin:0px;
 	overflow-x: hidden;
 	width:100vw;
+	  
 }
  /**************************** Menu ***********************************/
  header {
@@ -33,7 +34,7 @@
 	top:0; 
        left:0;
     right:0;
-    height:auto;
+    height:0;
     position:fixed;
 	margin-right:auto;
 	margin-bottom:20px;
