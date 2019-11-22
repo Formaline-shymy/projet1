@@ -35,13 +35,12 @@
 	top:0; 
        left:0;
     right:0;
-    height:50px;
+    height:150px;
     position:fixed;
 	margin-right:auto;
 	margin-bottom:20px;
 	background-color:white;
 	}
-
   header img {
 	 margin-left:220px;
 	 margin-top: 25px; 
