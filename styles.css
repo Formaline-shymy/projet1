@@ -1005,9 +1005,22 @@ form{
 	}
 	
 form{
-	right: 30%;
+    right: 30%;
     bottom: 5%;
 }	
 	
 }
 
+@media all and (max-width: 370px){
+	form{
+    position:relative;
+    padding: 0 5px;
+    margin: 0 5px;
+    width: 95%;
+    right: 0;
+	}
+}
+		
+		
+		
+ 
