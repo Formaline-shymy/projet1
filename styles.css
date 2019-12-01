@@ -1,51 +1,52 @@
-/* polices personnalisées */
 @font-face {
     font-family:'robotoregular';
-    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('P1_04_fonts/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family:'robotothin';
-    src: url('fonts/Roboto-Thin.ttf') format('truetype');
+    src: url('P1_04_fonts/Roboto-Thin.ttf') format('truetype');
      }
 
 @font-face {
     font-family:'robotobold';
-    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('P1_04_fonts/Roboto-Bold.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  src: url('../P1_04_fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../P1_04_fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../P1_04_fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../P1_04_fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+  }
+
   body {
-    background-color:white;
+    background-color:#FFFFFF;
 	margin:0px;
 	overflow-x: hidden;
 	width:100vw;
-	  
-}
+    }
  /**************************** Menu ***********************************/
  header {
    	display:flex;
 	z-index:20;
 	top:0; 
-       left:0;
+    left:0;
     right:0;
     height:auto;
     position:fixed;
 	margin-right:auto;
-	
-	background-color:white;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
 	}
+
   header img {
-	 margin-left:220px;
-	 margin-top: 25px; 
-	 margin-bottom: 10px;
-	 height:46px;
-	 		 }
+	margin-left:220px;
+	margin-top: 25px; 
+	margin-bottom: 10px;
+	height:46px;
+	}
 			 
 header nav {
 	text-align: right;
@@ -54,7 +55,7 @@ header nav {
 	margin-bottom:40px;
 	word-spacing: 1em;
 	width: 100%;
-  	 }
+  	}
 	 
 header nav a {
 	color: #000000;
@@ -63,14 +64,14 @@ header nav a {
 	padding-top:2px;
 	font-size: 1em;
 	text-decoration: none;
-}
+    }
 
 header nav a:hover{   
     padding-top: 32px;
     font-family:'robotothin';
     font-weight: bold;
     border-top: 3px solid #5897D0;  /* BLUE*/
- }
+    }
  
 
 /******************************************************* page 1 ACCEUIL ***************************************************/
@@ -80,7 +81,6 @@ header nav a:hover{
 	margin-left:0px;
 	height:auto;
 	min-width:100%;
-	
 	}
 
 @keyframes slider{
@@ -101,10 +101,21 @@ header nav a:hover{
 
 .blue-line {
 	margin-left:0px;
-	width:190px;
 	border-bottom: 4px solid #588dd0; 
-    height:83px;  
+	width: 2px;
+    height:83px;
+	animation: timeline 10s linear infinite;
+    }
+	
+@keyframes timeline {
+    from {left: 0%; width: 0%;}
+	20% {left: 00%; width: 20%;}
+    50% {left: 00%; width: 50%;}
+    80% {left: 00%; width: 80%;}
+    90% {left: 00%; width: 90%;}
+    to {left: 00%; width: 100%;}
 }
+
 
 
  #slider{
@@ -114,23 +125,22 @@ header nav a:hover{
     margin-bottom:10px;
 	z-index:1;
 	overflow:hidden; 
-
-		}
+	}
 		
 #slider1{
 	float: right;
-	animation: 15s slider ease-in-out infinite 10s;	
+	animation: 20s slider ease-in-out infinite 10s;	
 	width:100%;
 	height:auto;
 	margin-left:0px;
 	margin-right:0px;
 	position:relative;
-		}
+    }
 
 #slider2{
 	margin-left: -100%;
 	float: left;
-	animation: 15s slider ease-in-out infinite 10s;
+	animation: 20s slider ease-in-out infinite 10s;
 	width:100%;
 	height:auto;
 	position:relative;
@@ -142,12 +152,12 @@ header nav a:hover{
 	top: 25%;
 	padding-bottom: 15px;
 	color: #ffffff;
-	text-align: left; 	
-		}
+	text-align: left; 
+    }
 
 .slider-text span {
     color: #5897D0;	
-	}
+    }
 
 .slider-text h1{
 	font-family: 'robotobold', sans-serif;
@@ -156,7 +166,7 @@ header nav a:hover{
 	letter-spacing: -2px;
 	margin-bottom:15px;
 	text-transform: uppercase;
-		}
+    }
 
 
 .slider-text p{
@@ -176,10 +186,10 @@ header nav a:hover{
 	text-decoration: none;
 	text-align:center;
 	border-radius: 4px;
-        border:none;
-        padding: 10px;
+    border:none;
+    padding: 10px;
 	margin-left:12px;
-}
+    }
 
 .arrows{
 	font-size:0.8em
@@ -188,15 +198,16 @@ header nav a:hover{
 
 .a-left{
 	position: absolute;
-        left: -1.5%;
+    left: -1.5%;
 	top: 40%;
-}
+    }
 
 .a-right{
 	position: absolute;
-        right: 0%;
+    right:0%;
 	top: 40%;
-}
+    }
+
 
 /******************************************************* page 2 SERVICES *********************************************************/
 #services{
@@ -208,18 +219,17 @@ header nav a:hover{
 	width:auto;
 	margin-right: 0;
 	margin-top:1em;
-			}
+	}
 		
 .services-text{  
-       padding: 20px 0 20px 0;
-      
-}
+   padding: 20px 0 20px 0;
+   }
 
  .services-text h1{
 	font-size: 1.8em;
 	font-family:'robotobold', sans-serif;
 	text-align: center;
-}
+    }
 
 .services-text article h3 {
 	font-family:'robotothin', sans-serif;
@@ -229,28 +239,28 @@ header nav a:hover{
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 10px;
-				}
+	}
 
 
 				 
 /**********services line&circles separator ********/
 
 #services p{ /**********2circles icon***/
-	 font-size: 6px;
-	 text-align:center;
-     position: relative;
-     z-index:2;
-	 } 
+	font-size: 6px;
+	text-align:center;
+    position: relative;
+    z-index:2;
+	} 
 
 hr.line{
-  margin-top:-22px;
-  height: 1.5px;
-  border: 0;
-  background-color: #E8E8E8;
-  width:9%;
-  position: relative;
-  z-index:1;
-		}
+    margin-top:-22px;
+    height: 1.5px;
+    border: 0;
+    background-color: #E8E8E8;
+    width:9%;
+    position: relative;
+    z-index:1;
+	}
 	
 
 
@@ -262,7 +272,7 @@ hr.line{
 	margin-left: 50px;
 	height: auto;
 	width:auto;
-			}
+	}
 
 
 .services-image{
@@ -271,34 +281,34 @@ hr.line{
     min-width:250px;
 	padding-top:0px;
 	margin:auto;	
-		}
+    }
 
  .services-image img{
-	 margin-top:-150px;
-	 width: 100%;
-     max-width: 510px;
-	 height: auto;
-		}
+	margin-top:-150px;
+	width: 100%;
+    max-width: 510px;
+	height: auto;
+	}
 
 .services-liste {
 	width:40%;
 	height: auto;
     min-width:250px;
 	margin:auto;  	
-		}
+	}
 	
 .services-liste ul{
 	list-style: none;
 	padding-top: 80px;
 	padding-left: 72px;
-		}
+	}
 
 .designSEO h3{
-   text-align:left;
-   font-family: 'robotobold';
-   font-size: 0.9em;
-   padding-left: 10px;
-		}
+    text-align:left;
+    font-family: 'robotobold';
+    font-size: 0.9em;
+    padding-left: 10px;
+	}
 
  .designSEO h4 {
 	font-size: 0.9em;
@@ -398,22 +408,15 @@ hr.line {
 .button-block{
    display: flex;
    justify-content: center; 
-   border:3px solid #E8E8E8;
-   width:350px;
-   height:36px;
-   border-radius:5px;
-   cursor: pointer;
    margin:1em auto 2em auto;
 }
 
-.button-block:hover{
-	border:none;
-}
+
 
 .button-one ,.button-two ,.button-three, .button-four {
-	background-color:#E8E8E8;
+	background-color: #E8E8E8;
 	color: 	#000000;
-	width: 81px;
+	width: 90px;
 	height: 20px;
 	border: none;
     text-decoration: none;
@@ -425,6 +428,7 @@ hr.line {
 }
 
 .button-one {
+	border-radius:5px 0 0 5px;
 	letter-spacing:0.3px;
 	}
 	
@@ -432,16 +436,13 @@ hr.line {
 	padding-right:1em;
 	}
 	
-.button-one:hover{
-	border-radius:5px 0 0 5px;
-}
 
 .button-four:hover{
 	border-radius: 0 5px 5px 0;
 	
 }
 
-.button-one:hover,.button-two:hover, .button-three:hover, .button-four:hover{
+.button-one ,.button-two:hover, .button-three:hover, .button-four:hover{
 	background-color:#5897D0;
 	color: #FFFFFF;
 	border-bottom:3px solid #0066CC;
@@ -476,12 +477,13 @@ a:hover .triangle  {
     grid-gap: 30px;
     }
   
-#projets img {
+projets img {
     border: none;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     max-width: 100%;
     cursor: pointer;
 }
+
 
 .container {
 	position: relative;
@@ -493,7 +495,11 @@ a:hover .triangle  {
 	display: block;
 	width: 100%;
 	height: auto;
-}
+	border: none;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    cursor: pointer;
+	}
 
 figcaption {
 	opacity:0;
@@ -506,13 +512,12 @@ figcaption {
 	z-index: 2;
 	box-sizing: border-box;
 	background-color: rgba(0, 0, 0, 0.4);/***using RGBA color values to not apply opacity to child element***/
-
-}
-
-figcaption:hover{
+    }
+	
+.container:hover figcaption{
 	opacity:1;
 	color: #FFFFFF;
-}
+    }
 
 figcaption .title  {
 	margin-top:0.2em;
@@ -551,8 +556,7 @@ figcaption .title  {
 	padding-top:5em;
 	margin-top:30px;
 	position:relative;
-	
-  }
+	  }
 
  .iframe-map{
     width:100%;
@@ -658,7 +662,10 @@ button {
  
  
 /***********************************************MEDIA QUERRIES*****************************************************************/
+
 @media all and (max-width: 870px){ 
+
+
 /****0-MENU--***/
 
 header{
@@ -797,7 +804,7 @@ header nav {
 /*****4- CONTACT****/
 
 form{
-    right: 30%;
+	right: 30%;
     bottom: 5%;
 	
 }
@@ -807,6 +814,7 @@ form{
 
 /****************------------------------------------------------------------************************************************************************/
 @media all and (max-width: 480px){
+
  /****0-MENU--***/
 header{
 	display:block;
@@ -968,24 +976,25 @@ header nav {
 
 
 	 /****4-CONTACT***/
+
 form{  
 	right: 20%;
-        bottom: 5%;
+    bottom: 5%;
 	padding:3px;
 		
 	}
-
 }
 
 
 
 @media all and  (min-width: 480px) and (max-width: 704px){ 
+
 .slider-text{
 	margin-top: 38%;
 	margin-left:15%;
 	position:static;
 	color:#585858;
-			}
+	}
 
 .arrows{
 	font-size:0.5em
@@ -993,7 +1002,7 @@ form{
 
 .a-left{
 	top: 25%;
-}
+       }
 
 .a-right{
     top: 25%;
@@ -1005,14 +1014,15 @@ form{
 	}
 	
 form{
-    right: 30%;
+	right: 30%;
     bottom: 5%;
 }	
 	
 }
-
-
-		
-		
-		
- 
+@media all and (min-width: 1700px){ 
+#projets{
+  
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+	
+}
+}
