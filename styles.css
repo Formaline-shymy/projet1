@@ -409,11 +409,11 @@ hr.line {
    display: flex;
    justify-content: center; 
    margin:1em auto 2em auto;
-}
+   }
 
 
 
-.button-one ,.button-two ,.button-three, .button-four {
+.button-two ,.button-three, .button-four {
 	background-color: #E8E8E8;
 	color: 	#000000;
 	width: 90px;
@@ -422,52 +422,56 @@ hr.line {
     text-decoration: none;
 	justify-content: center; 
     padding: 8px 8px 8px 20px; 
-	display: flex;
-    font-size: 1em;
+	font-size: 1em;
     font-family:'robotoregular', sans-serif;
 }
 
-.button-one {
-	border-radius:5px 0 0 5px;
-	letter-spacing:0.3px;
-	}
-	
-.button-four {
-	padding-right:1em;
-	}
-	
-
-.button-four:hover{
-	border-radius: 0 5px 5px 0;
-	
+.button-four{
+border-radius:0 5px 5px 0 ;
 }
 
-.button-one ,.button-two:hover, .button-three:hover, .button-four:hover{
+.button-one , .button-one:hover {
+	border-radius:5px 0 0 5px;
+	background-color:#5897D0;
+	color: #FFFFFF;
+	border-bottom:3px solid #0066CC;
+	width: 60px;
+	height: 20px;
+	text-decoration: none;
+	padding: 8px 8px 8px 40px; 
+	font-size: 1em;
+    font-family:'robotoregular', sans-serif;
+	z-index:2;
+	}
+
+
+.button-two:hover, .button-three:hover, .button-four:hover{
 	background-color:#5897D0;
 	color: #FFFFFF;
 	border-bottom:3px solid #0066CC;
 	width: 90px;
 	height: 20px;
-    justify-content: center;
 	z-index:2;
 	}
+	
  
-a:hover .triangle  {
+a:hover .triangle {
     border-style: solid;
     border-width: 7px;
     border-color: #0066CC transparent transparent transparent;
     position: relative;
-    top: 31px;
-    right: 30px;
-}
+    top: 37px;
+	right: 30px;
+    }
 
 .button-one:hover .triangle  {
-    right: 22px;
-}
+    right: 20px;
+	}
+	
+	
 .button-two:hover .triangle , .button-three:hover .triangle{
     right: 40px;
-}
-	
+    }
 	
 	
 	/***portolio images***/
